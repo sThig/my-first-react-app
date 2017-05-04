@@ -13,7 +13,7 @@ class App extends Component {
           My first <code>React.js</code> project.
         </p>
         <Timer count={25} />
-        <TimerExample start={Date.now()} />,
+        <Count />
       </div>
     );
   }
